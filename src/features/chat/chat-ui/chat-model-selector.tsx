@@ -18,10 +18,10 @@ export const ChatModelSelector: FC<Prop> = (props) => {
           : null
       }
     >
-      <TabsList className="grid w-full grid-cols-2 h-12 items-stretch">
-        <TabsTrigger value="gpt-3.5" disabled={props.disable}>
+      <TabsList className="grid w-full grid-cols-1 h-12 items-stretch">
+        {/* <TabsTrigger value="gpt-3.5" disabled={props.disable}>
           ⚡ GPT-3.5
-        </TabsTrigger>
+        </TabsTrigger> */}
         <TabsTrigger value="gpt-4" disabled={props.disable}>
           ✨ GPT-4
         </TabsTrigger>
